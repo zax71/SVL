@@ -6,7 +6,7 @@
 
     <groupId>me.zax71</groupId>
     <artifactId>SVL</artifactId>
-    <version>1.0</version>
+    <version>0.1</version>
     <packaging>jar</packaging>
 
     <name>SVL</name>
@@ -77,9 +77,11 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.NuVotifier</groupId>
-            <artifactId>NuVotifier</artifactId>
-            <version>2.7.2</version>
+            <groupId>com.vexsoftware</groupId>
+            <artifactId>nuvotifier-universal</artifactId>
+            <version>2.7.3</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}\dependency\nuvotifier.jar</systemPath>
         </dependency>
     </dependencies>
 </project>

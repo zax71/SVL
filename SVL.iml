@@ -24,22 +24,17 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.spigotmc:spigot-api:1.17.1-R0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.guava:guava:21.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.code.gson:gson:2.8.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.code.gson:gson:2.8.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: net.md-5:bungeecord-chat:1.16-R0.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.yaml:snakeyaml:1.28" level="project" />
-    <orderEntry type="library" name="Maven: com.github.NuVotifier:NuVotifier:2.7.2" level="project" />
-    <orderEntry type="library" name="Maven: com.github.NuVotifier.NuVotifier:nuvotifier-api:2.7.2" level="project" />
-    <orderEntry type="library" name="Maven: com.github.NuVotifier.NuVotifier:nuvotifier-bukkit:2.7.2" level="project" />
-    <orderEntry type="library" name="Maven: com.github.NuVotifier.NuVotifier:nuvotifier-bungeecord:2.7.2" level="project" />
-    <orderEntry type="library" name="Maven: com.github.NuVotifier.NuVotifier:nuvotifier-common:2.7.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-handler:4.1.49.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-common:4.1.49.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-resolver:4.1.49.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-buffer:4.1.49.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-transport:4.1.49.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-codec:4.1.49.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.49.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: io.netty:netty-transport-native-unix-common:4.1.49.Final" level="project" />
-    <orderEntry type="library" name="Maven: com.github.NuVotifier.NuVotifier:nuvotifier-sponge:2.7.2" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: com.vexsoftware:nuvotifier-universal:2.7.3">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/dependency/nuvotifier.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
