@@ -1,8 +1,0 @@
-name: SVL
-version: '1.0'
-main: me.zax71.svl.SVL
-api-version: 1.17
-prefix: [ SVL ]
-depend: [ Votifier ]
-authors: [ Zax71 ]
-description: SVL - A simple vote listner 
