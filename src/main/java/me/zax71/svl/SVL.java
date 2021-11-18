@@ -1,14 +1,19 @@
 package me.zax71.svl;
 
 import me.zax71.svl.events.vote;
+import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class SVL extends JavaPlugin {
 
+    FileConfiguration config = this.getConfig();
     @Override
     public void onEnable() {
-        this.getServer().getPluginManager().registerEvents(new vote(), this);
+        // Config
+        saveDefaultConfig();
 
+        // Register vote class
+        this.getServer().getPluginManager().registerEvents(new vote(), this);
     }
 
     @Override
