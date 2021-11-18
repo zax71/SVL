@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
-public class vote implements Listener {
+public class vote implements VoteListener {
 
     @EventHandler
     public void voteevent(VotifierEvent event){
