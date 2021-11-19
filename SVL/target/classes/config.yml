@@ -1,0 +1,4 @@
+# SVL - Simple Votifier Listener
+
+# Command to run when you receive a vote
+command: 'msg %player_name% This is the default command from SVL, edit it in config.yml'
