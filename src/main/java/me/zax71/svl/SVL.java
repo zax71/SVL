@@ -4,15 +4,19 @@ import co.aikar.commands.PaperCommandManager;
 import me.zax71.svl.commands.SVLCommand;
 import me.zax71.svl.events.vote;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class SVL extends JavaPlugin {
 
     public static SVL plugin;
+    public String prefix = ChatColor.GOLD + "[" + ChatColor.GRAY + "SVL" + ChatColor.GOLD + "] ";
+
 
     @Override
     public void onEnable() {
+
         // Config
         plugin = this;
         saveDefaultConfig();
@@ -33,9 +37,5 @@ public final class SVL extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-    }
-
-    public static void reloadSVL() {
-        reloadConfig();
     }
 }
