@@ -3,7 +3,6 @@ version: '${project.version}'
 main: me.zax71.svl.SVL
 api-version: 1.17
 prefix: SVL
-depend: [ Votifier ]
-softdepend: [PlaceholderAPI]
+depend: [Votifier, PlaceholderAPI]
 authors: [ Zax71 ]
 description: SVL - A simple vote listner 

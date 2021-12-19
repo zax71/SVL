@@ -1,5 +1,7 @@
 package me.zax71.svl;
 
+import co.aikar.commands.PaperCommandManager;
+import me.zax71.svl.commands.SVLCommand;
 import me.zax71.svl.events.vote;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -20,12 +22,20 @@ public final class SVL extends JavaPlugin {
         this.getServer().getPluginManager().registerEvents(new vote(), this);
 
         if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") == null) {
-            getLogger().warning("PlaceholderAPI not found. This is recommended for the use of this plugin, download it at: https://www.spigotmc.org/resources/placeholderapi.6245");
+            getLogger().warning("PlaceholderAPI is required for this plugin, download it at: https://www.spigotmc.org/resources/placeholderapi.6245");
         }
+
+        // Register commands
+        PaperCommandManager commandManager = new PaperCommandManager(this);
+        commandManager.registerCommand(new SVLCommand());
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+    }
+
+    public static void reloadSVL() {
+        reloadConfig();
     }
 }
