@@ -7,3 +7,5 @@ commands:
 
 # Weather we should broadcast a message to the whole server saying X player voted. true or false
 broadcast: true
+
+# push change yay
