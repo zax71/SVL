@@ -28,7 +28,6 @@ public final class SVL extends JavaPlugin {
         if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") == null) {
             getLogger().warning("PlaceholderAPI is required for this plugin, download it at: https://www.spigotmc.org/resources/placeholderapi.6245");
         }
-
         // Register commands
         PaperCommandManager commandManager = new PaperCommandManager(this);
         commandManager.registerCommand(new SVLCommand());

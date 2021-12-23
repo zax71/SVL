@@ -1,4 +1,9 @@
 # SVL - Simple Votifier Listener
 
 # Command to run when you receive a vote
-command: 'msg %player_name% This is the default command from SVL, edit it in config.yml'
+commands:
+  - 'msg %player_name% This is the default command from SVL, edit it in config.yml'
+  - 'say SVL can have multiple commands!'
+
+# Weather we should broadcast a message to the whole server saying X player voted. true or false
+broadcast: true

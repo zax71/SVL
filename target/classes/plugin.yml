@@ -1,5 +1,5 @@
 name: SVL
-version: '1.2'
+version: '1.3.0'
 main: me.zax71.svl.SVL
 api-version: 1.17
 prefix: SVL

@@ -6,6 +6,8 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import me.zax71.svl.SVL;
 
+import java.util.List;
+
 @CommandAlias("svl|simplevotelistener")
 public class SVLCommand extends BaseCommand {
 
