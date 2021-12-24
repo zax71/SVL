@@ -21,5 +21,5 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: build
+          name: SVL-dev-build
           path: target/SVL-*.*.*.jar
