@@ -7,5 +7,5 @@ This is a Maven project, it can be build with `mvn clean package`
 
 ## Downloads
 
- - GitHub releases
+ - [GitHub releases](https://github.com/zax71/SVL/releases)
  - [Spigot](https://www.spigotmc.org/resources/svl-simple-vote-listner.97730/)
