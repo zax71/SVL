@@ -9,4 +9,3 @@ This is a Maven project, it can be build with `mvn clean package`
 
  - GitHub releases
  - [Spigot](https://www.spigotmc.org/resources/svl-simple-vote-listner.97730/)
-
