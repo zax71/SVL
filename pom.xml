@@ -79,20 +79,18 @@
     <dependencies>
 
         <dependency>
-            <groupId>org.spigotmc</groupId>
+            <groupId>org.spigotmc</groupId> <!-- Spigot -->
             <artifactId>spigot-api</artifactId>
             <version>1.17.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>com.vexsoftware</groupId>
-            <artifactId>nuvotifier-universal</artifactId>
-            <version>2.7.3</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}\src\main\resources\nuvotifier.jar</systemPath>
+        <dependency> <!-- NuVotifier -->
+            <groupId>com.github.NuVotifier.NuVotifier</groupId>
+            <artifactId>nuvotifier-api</artifactId>
+            <version>2.7.2</version>
         </dependency>
         <dependency>
-            <groupId>me.clip</groupId>
+            <groupId>me.clip</groupId> <!-- PlaceholderAPI -->
             <artifactId>placeholderapi</artifactId>
             <version>2.10.9</version>
             <scope>provided</scope>
