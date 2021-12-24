@@ -19,8 +19,8 @@ jobs:
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots verify
 
-      - name: Upload to artifacts
+      - name: 'Upload artifacts'
           uses: actions/upload-artifact@v2
           with:
             name: output
-            path: target/SCL-*.*.*.jar
+            path: target/SVL-*.*.*.jar
