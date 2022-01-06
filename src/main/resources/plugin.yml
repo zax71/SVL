@@ -1,7 +1,7 @@
 name: SVL
 version: '${project.version}'
 main: me.zax71.svl.SVL
-api-version: 1.17
+api-version: 1.8
 prefix: SVL
 depend: [Votifier, PlaceholderAPI]
 authors: [ Zax71 ]
